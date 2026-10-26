@@ -1,5 +1,12 @@
-                            # NETWORKWALKS-B084-WK1-PM1-CYBERSECURITY-LAB-SETUP
-                                 My week 1 Cybersecurity Internship Task
+#  Author
+Emmanuel Ujah
+
+Cybersecurity Intern B084
+
+ID: NW-084-000
+
+LinkedIn : https://www.linkedin.com/in/emmanuel-ujah-597701203/
+
  # 🔐 Cybersecurity Lab Environment Setup
 
 # 📌 Project Overview:
@@ -33,6 +40,21 @@ Web security testing
 Exploitation practice
 Security-tool experimentation
 
+# ⚙️ Lab Configuration
+🧩 Component	⚙️ Configuration
+🖥️ Host OS	Windows 10
+🧠 Host RAM	8 GB
+⚡ Processor	Intel Core i7
+🧰 Hypervisor	VirtualBox 7.2
+🐉 Security OS	Kali Linux 2026.2
+🧠 Kali RAM	2048 MB
+🌐 Virtual Network	NAT Network
+📡 Network Address	10.0.0.0/24
+🐧 Kali IP Address	10.0.0.2/24
+🚪 Default Gateway	10.0.0.1
+🌍 DNS Server	10.0.0.0
+🔮 Future VM Range	10.0.0.3–10.0.0.99
+
 # Problems Encountered & Solutions
 After manually configuring the IPv4 settings, Internet connectivity still failed along the line.
 Solution: I used the following command on the kali CLI 
@@ -49,9 +71,11 @@ I learnt how to download, install and configure a virtual machine
 
 3. Kali Linux: I learnt how to download, Install and configure kali on virtual box.
 
-4. Static IP Configuration : I learnt how to configure IP Address on machines.
+4. Flameshot: I learnt how to download and install Flameshot application used for screenshots.
 
-5. Documentation: I learnt about why it is necessary to document every details of work carried about especially taking screenshots and saving them on GITHUB for future purpose.
+5. Static IP Configuration : I learnt how to configure IP Address on machines.
+
+6. Documentation: I learnt about why it is necessary to document every details of work carried about especially taking screenshots and saving them on GITHUB for future purpose.
 
 # Tools Used 
 1. VirtualBox: https://virtualbox.org/wiki/Downloads
@@ -59,8 +83,6 @@ I learnt how to download, install and configure a virtual machine
 3. Wireshark:
 4. Windows 10:
 5. Android:
+6. Flameshot:  https://flameshot.org/#download
 
-#  Author
-Emmanuel Ujah
-Cybersecurity Intern B084
-ID: NW-084-000
+
