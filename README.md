@@ -19,6 +19,7 @@ The main objectives of this project are to:
 
 Install and configure VirtualBox.
 Install & import Kali Linux as a virtual machine.
+Install and use Wireshark to capture packets
 Create a private NAT Network for the cybersecurity lab.
 Configure network connectivity for Kali Linux.
 Assign a consistent IP address to the Kali VM.
@@ -56,9 +57,11 @@ Security-tool experimentation
 🔮 Future VM Range	10.0.0.3–10.0.0.99
 
 # Problems Encountered & Solutions
-After manually configuring the IPv4 settings, Internet connectivity still failed along the line.
+1. After manually configuring the IPv4 settings, Internet connectivity still failed along the line.
 Solution: I used the following command on the kali CLI 
 "sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0"
+2. I was having problems understanding wireshark and how it works.
+   Solution: I was able to follow a tutorial video @ https://www.youtube.com/watch?v=6ZxC7AO6PoA this gave me an overview of Wireshark and also helped me understand how packets travel across the network and how packets are captured.
 
 
 # Knowledge and Skills Gained
@@ -76,13 +79,13 @@ I learnt how to download, install and configure a virtual machine
 5. Static IP Configuration : I learnt how to configure IP Address on machines.
 
 6. Documentation: I learnt about why it is necessary to document every details of work carried about especially taking screenshots and saving them on GITHUB for future purpose.
+   
+7. Wireshark: I learnt how to use Wireshark to Capture network packets as they travel across a network. Analyze protocols such as TCP, UDP, HTTP, HTTPS, DNS, DHCP, FTP, SMTP, SIP, and many others.
 
 # Tools Used 
 1. VirtualBox: https://virtualbox.org/wiki/Downloads
 2. Kali Linux: https://kali.org/get-kali
-3. Wireshark:
-4. Windows 10:
-5. Android:
+3. Wireshark:  https://www.wireshark.org/download.html
 6. Flameshot:  https://flameshot.org/#download
 
 
