@@ -7,85 +7,57 @@ ID: NW-084-000
 
 LinkedIn : https://www.linkedin.com/in/emmanuel-ujah-597701203/
 
- # 🔐 Cybersecurity Lab Environment Setup
+ # 🔐 PASSWORD CRACKING WITH JTR
 
 # 📌 Project Overview:
-This project focuses on setting up a virtual cybersecurity and penetration-testing laboratory using VirtualBox and Kali Linux.
-The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
-The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
-
+The task is a practical cybersecurity lab focused on password security and password recovery using John the Ripper (JTR) and its graphical interface, Johnny. The objective is to recover the password of a supplied password-protected PDF in an authorized lab environment, helping you understand how weak passwords can be attacked and why strong password practices are important.
 # 🎯 Objectives:
 The main objectives of this project are to:
 
-Install and configure VirtualBox.
-Install & import Kali Linux as a virtual machine.
-Install and use Wireshark to capture packets
-Create a private NAT Network for the cybersecurity lab.
-Configure network connectivity for Kali Linux.
-Assign a consistent IP address to the Kali VM.
-Verify network connectivity and DNS resolution.
-Take a clean VM snapshot for recovery.
-Document the complete setup process.
-Prepare the environment for future cybersecurity projects.
+1.Install and configure John the Ripper and Johnny on Windows.
+2.Obtain the password hash from the supplied protected PDF and save it in the required format.
+3.Load the hash into Johnny and perform a password-recovery attack.
+4.Use the recovered password to verify access to the protected PDF.
+5.Understand the fundamental difference between encryption and hashing and how password complexity affects password recovery.
 
 # Purpose of the Lab
-The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
+The purpose of the Password Cracking with John the Ripper lab is a practical experience with password security assessment and password recovery using John the Ripper (JTR) and Johnny. The lab uses a password-protected PDF as the authorized test target.
+Specifically, the lab helps you to:
 
-It can be used for activities such as:
-
-Network reconnaissance
-Port scanning
-Vulnerability assessment
-Packet analysis
-Web security testing
-Exploitation practice
-Security-tool experimentation
-
-# ⚙️ Lab Configuration
-🧩 Component	⚙️ Configuration
-🖥️ Host OS	Windows 10
-🧠 Host RAM	8 GB
-⚡ Processor	Intel Core i7
-🧰 Hypervisor	VirtualBox 7.2
-🐉 Security OS	Kali Linux 2026.2
-🧠 Kali RAM	2048 MB
-🌐 Virtual Network	NAT Network
-📡 Network Address	10.0.0.0/24
-🐧 Kali IP Address	10.0.0.2/24
-🚪 Default Gateway	10.0.0.1
-🌍 DNS Server	10.0.0.0
-🔮 Future VM Range	10.0.0.3–10.0.0.99
-
-# Problems Encountered & Solutions
-1. After manually configuring the IPv4 settings, Internet connectivity still failed along the line.
-Solution: I used the following command on the kali CLI 
-"sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0"
-2. I was having problems understanding wireshark and how it works.
-   Solution: I was able to follow a tutorial video @ https://www.youtube.com/watch?v=6ZxC7AO6PoA this gave me an overview of Wireshark and also helped me understand how packets travel across the network and how packets are captured.
-
+1.Understand how password cracking/recovery techniques work in an ethical cybersecurity environment.
+2.Learn how John the Ripper and Johnny can be used to test password strength.
+3.Understand how a password-related hash is extracted and processed for password recovery.
+4.Demonstrate why strong and complex passwords are important for protecting sensitive information.
+5.Develop practical skills relevant to ethical hacking, penetration testing, and password-security auditing.
+6.To Learn how Network walks hash calculator and password cracking tool works.
 
 # Knowledge and Skills Gained
-1. NAT vs NAT Network
-A standard NAT configuration and a NAT Network serve different purposes.
+From the W3-PM1 - Week3 - Project Module - Password Cracking with JTR v1 lab, I develop the following cybersecurity skills:
 
-A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
-2. Virtual Machine
-I learnt how to download, install and configure a virtual machine
+1.John the Ripper (JTR) proficiency – Practical experience setting up and using John the Ripper for authorized password recovery and security testing.
 
-3. Kali Linux: I learnt how to download, Install and configure kali on virtual box.
+2.Johnny GUI usage – Ability to use Johnny, the graphical interface for John the Ripper, to load hashes and manage password-recovery attempts.
 
-4. Flameshot: I learnt how to download and install Flameshot application used for screenshots.
+3.Password security assessment – Understanding how password strength and complexity affect resistance to password-cracking techniques.
 
-5. Static IP Configuration : I learnt how to configure IP Address on machines.
+4.Hash extraction and handling – Experience extracting password-related hash information from a protected PDF and preparing it for analysis with JTR.
 
-6. Documentation: I learnt about why it is necessary to document every details of work carried about especially taking screenshots and saving them on GITHUB for future purpose.
-   
-7. Wireshark: I learnt how to use Wireshark to Capture network packets as they travel across a network. Analyze protocols such as TCP, UDP, HTTP, HTTPS, DNS, DHCP, FTP, SMTP, SIP, and many others.
+5.Password recovery techniques – Understanding the practical process cybersecurity professionals use to test whether weak passwords can be recovered in an authorized environment.
+
+6.Hashing vs. encryption – Better understanding of the distinction between hashing and encryption and their roles in information security.
+
+7.Security-tool troubleshooting – Experience installing, configuring and troubleshooting cybersecurity tools in a Windows lab environment.
+
+8.Ethical hacking and penetration-testing awareness – Understanding how password auditing fits into authorized security assessments and why these techniques must only be used against systems or files you own or have permission to test.
+
+9.How to use Network walks hash calculator and password cracking tool works.
 
 # Tools Used 
-1. VirtualBox: https://virtualbox.org/wiki/Downloads
-2. Kali Linux: https://kali.org/get-kali
-3. Wireshark:  https://www.wireshark.org/download.html
-6. Flameshot:  https://flameshot.org/#download
+1. Networkwalks hash calculator : https://networkwalks.com/hash-calculator/
+2. Networkwalks password cracker : https://networkwalks.com/password-cracker/
+3. John the Ripper : https://distro.ibiblio.org/openwall/projects/john/1.9.0/
+4. Johnny GUI : https://openwall.info/wiki/john/johnny
 
+# Tools Used 
+The lab develops practical skills in password auditing, hash analysis, John the Ripper/Johnny, password recovery, security-tool configuration and password-strength assessment, all of which support your broader development in cybersecurity and ethical hacking.
 
