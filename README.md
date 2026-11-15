@@ -58,6 +58,6 @@ From the W3-PM1 - Week3 - Project Module - Password Cracking with JTR v1 lab, I 
 3. John the Ripper : https://distro.ibiblio.org/openwall/projects/john/1.9.0/
 4. Johnny GUI : https://openwall.info/wiki/john/johnny
 
-# Tools Used 
+# Summary
 The lab develops practical skills in password auditing, hash analysis, John the Ripper/Johnny, password recovery, security-tool configuration and password-strength assessment, all of which support your broader development in cybersecurity and ethical hacking.
 
